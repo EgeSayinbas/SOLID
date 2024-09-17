@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP", "OCP\OCP.csproj", "{5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_MVC", "Web_MVC\Web_MVC.csproj", "{EC2567BF-2995-4485-B81C-B4BCD63BA3E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP", "DIP\DIP.csproj", "{52802F70-E2B2-48C4-AD77-B79F7C30EF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOCSample4Unity", "IOC\IOCSample4Unity.csproj", "{A4F74D21-7F85-432C-9163-DAE675D96E02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{EC2567BF-2995-4485-B81C-B4BCD63BA3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC2567BF-2995-4485-B81C-B4BCD63BA3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC2567BF-2995-4485-B81C-B4BCD63BA3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52802F70-E2B2-48C4-AD77-B79F7C30EF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52802F70-E2B2-48C4-AD77-B79F7C30EF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52802F70-E2B2-48C4-AD77-B79F7C30EF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52802F70-E2B2-48C4-AD77-B79F7C30EF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F74D21-7F85-432C-9163-DAE675D96E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F74D21-7F85-432C-9163-DAE675D96E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F74D21-7F85-432C-9163-DAE675D96E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F74D21-7F85-432C-9163-DAE675D96E02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
