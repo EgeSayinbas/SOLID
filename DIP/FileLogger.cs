@@ -8,5 +8,9 @@ namespace DIP
 {
     internal class FileLogger
     {
+        public bool DosyayaYaz(string message)
+        {
+            return true;
+        }
     }
 }

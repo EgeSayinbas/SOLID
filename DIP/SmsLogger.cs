@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DIP
 {
-    internal class Smslogger
+    internal class SmsLogger
     {
+        public bool SmsGonder(string message) => true; //{ return true; }
     }
 }

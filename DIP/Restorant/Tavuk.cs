@@ -8,5 +8,9 @@ namespace DIP.Restorant
 {
     internal class Tavuk
     {
+        public void TavukPisir()
+        {
+            Console.WriteLine("Tavuk Pisti");
+        }
     }
 }

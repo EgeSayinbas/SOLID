@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DIP
 {
-    internal class Dblogger
+    internal class DbLogger
     {
+        public bool DbYaz(string message)
+        {
+            return true;
+        }
     }
 }

@@ -8,5 +8,9 @@ namespace DIP.Restorant
 {
     internal class Balik
     {
+        public void BalikPisir()
+        {
+            Console.WriteLine("Balik Pisti");
+        }
     }
 }

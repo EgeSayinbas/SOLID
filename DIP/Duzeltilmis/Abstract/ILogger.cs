@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DIP.Duzeltilmis.Abstract
 {
-    internal class ILogger
+    internal interface ILogger
     {
+        public void Logla(string message);
     }
 }

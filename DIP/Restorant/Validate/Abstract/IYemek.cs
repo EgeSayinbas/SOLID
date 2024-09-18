@@ -8,5 +8,6 @@ namespace DIP.Restorant.Validate.Abstract
 {
     internal interface IYemek
     {
+        void Pisir();
     }
 }
