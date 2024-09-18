@@ -9,9 +9,10 @@ namespace DIP.Restorant.Validate.Concrete
 {
     internal class BorsaLokantasi
     {
-        private readonly IList<IYemek> Yemekler;
-
-        public BorsaLokantasi(IList<IYemek> Yemekler)
+        //IEnumarable yerine ICollection yazilabilir ICollection IEnumarable dan farklı olarak add remove clear gibi metodları vardır.
+        private readonly IEnumerable<IYemek> Yemekler;
+        
+        public BorsaLokantasi(IEnumerable<IYemek> Yemekler)
         {
             this.Yemekler = Yemekler;
         }
