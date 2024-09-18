@@ -9,14 +9,14 @@ namespace DIP.Restorant.Validate.Concrete
 {
     internal class BorsaLokantasi
     {
-        private readonly List<IYemek> Yemekler;
+        private readonly IList<IYemek> Yemekler;
 
-        public BorsaLokantasi(List<IYemek> Yemekler)
+        public BorsaLokantasi(IList<IYemek> Yemekler)
         {
             this.Yemekler = Yemekler;
         }
 
-        public void YenekYap()
+        public void YemekYap()
         {
             foreach (var item in Yemekler)
             {
